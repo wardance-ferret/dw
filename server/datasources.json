@@ -1,0 +1,25 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "iechoDS": {
+		"name" : "iechoDS",	  
+		"connector" : "mysql",
+		"host": "iecho.unm.edu",
+		"port" : 3306,
+		"database" : "iecho_unm",
+		"username" : "webuser",
+		"password" : "pw1234"
+   },
+   "dwDS" :{
+		"name" : "dwDS",
+		"connector": "mongodb",
+		"host" : "localhost",
+		"url" : "mongodb://localhost:27017/main",
+		"port" : 27017,
+		"database" : "main",
+		"user" : "webuser_dw",
+		"password" :"pw1234echo!dw"
+    }
+}
