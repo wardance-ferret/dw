@@ -7,8 +7,6 @@ var dataSource = app.dataSources.iechoDS;
 
 //todo: get tables for the schema
 //param table name and schema and check for table existence
-//see also:  http://stackoverflow.com/questions/26128285/loopback-discoverandbuildmodels-not-generating-models
-//todo: modify each schema to include a site_id, 
 
 function schemaCB(err, schema) {
 	  if(schema) {
@@ -29,14 +27,4 @@ function schemaCB(err, schema) {
 	return;
 };
 
-
-dataSource.discoverModelDefinitions({owner:'iecho_unm', all:true},function(err, models){
-	if (err) {
-		console.log(err);
-		return err;
-	}
-    	models.forEach(function(element){
-		console.log(element.name);
-   	    	dataSource.discoverSchema(element.name,{schema:'iecho_unm'},schemaCB);
-	});
-});
+dataSource.discoverSchema('users', {schema: 'iechomain'}, schemaCB);

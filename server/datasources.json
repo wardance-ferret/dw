@@ -6,20 +6,29 @@
   "iechoDS": {
 		"name" : "iechoDS",	  
 		"connector" : "mysql",
-		"host": "iecho.unm.edu",
+		"host": "hostname",
 		"port" : 3306,
-		"database" : "iecho_unm",
-		"username" : "webuser",
-		"password" : "pw1234"
+		"database" : "database",
+		"username" : "user",
+		"password" : "password"
+   },
+  "iechomainDS": {
+		"name" : "iechoDS",	  
+		"connector" : "mysql",
+		"host": "hostname",
+		"port" : 3306,
+		"database" : "database",
+		"username" : "user",
+		"password" : "password"
    },
    "dwDS" :{
 		"name" : "dwDS",
 		"connector": "mongodb",
 		"host" : "localhost",
-		"url" : "mongodb://localhost:27017/main",
-		"port" : 27017,
+		"url" : "mongodb://localhost:28001/main",
+		"port" : 28001,
 		"database" : "main",
-		"user" : "webuser_dw",
-		"password" :"pw1234echo!dw"
+		"user" : "user",
+		"password" :"password"
     }
 }
