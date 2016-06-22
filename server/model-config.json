@@ -1,1 +1,41 @@
-{"_meta":{"sources":["loopback/common/models","loopback/server/models","../common/models","./models"],"mixins":["loopback/common/mixins","loopback/server/mixins","../common/mixins","./mixins"]},"User":{"dataSource":"db"},"AccessToken":{"dataSource":"db","public":false},"ACL":{"dataSource":"db","public":false},"RoleMapping":{"dataSource":"db","public":false},"Role":{"dataSource":"db","public":false},"bouncelist1":{"dataSource":"iechoDS","public":true},"cedb":{"dataSource":"iechoDS","public":true},"cedb_mapping":{"dataSource":"iechoDS","public":true},"clinicrecords":{"dataSource":"iechoDS","public":true},"clinicrecords_admindocs":{"dataSource":"iechoDS","public":true},"clinicrecords_attendees":{"dataSource":"iechoDS","public":true},"clinicrecords_attendees_anons_ids":{"dataSource":"iechoDS","public":true},"clinicrecords_attendees_ids":{"dataSource":"iechoDS","public":true},"clinicrecords_clinic_hcname":{"dataSource":"iechoDS","public":true},"clinicrecords_didactics":{"dataSource":"iechoDS","public":true},"clinicrecords_educredits":{"dataSource":"iechoDS","public":true},"clinicrecords_educredits_list":{"dataSource":"iechoDS","public":true},"clinicrecords_patients":{"dataSource":"iechoDS","public":true},"clinicrecords_videos":{"dataSource":"iechoDS","public":true},"clinics":{"dataSource":"iechoDS","public":true},"clinics_default_attendees":{"dataSource":"iechoDS","public":true},"comments":{"dataSource":"iechoDS","public":true},"contact_in_groups":{"dataSource":"iechoDS","public":true},"contactgroups":{"dataSource":"iechoDS","public":true},"contacts":{"dataSource":"iechoDS","public":true},"contacts_fullname":{"dataSource":"iechoDS","public":true},"contacts_fullname_hcname":{"dataSource":"iechoDS","public":true},"contacts_hcname":{"dataSource":"iechoDS","public":true},"default_contact_in_groups":{"dataSource":"iechoDS","public":true},"defaults":{"dataSource":"iechoDS","public":true},"dus":{"dataSource":"iechoDS","public":true},"dus_in_categories":{"dataSource":"iechoDS","public":true},"duscategories":{"dataSource":"iechoDS","public":true},"educredit_evals":{"dataSource":"iechoDS","public":true},"educredits":{"dataSource":"iechoDS","public":true},"educredits_report":{"dataSource":"iechoDS","public":true},"event_reg_telepain1":{"dataSource":"iechoDS","public":true},"events":{"dataSource":"iechoDS","public":true},"events_attendees":{"dataSource":"iechoDS","public":true},"events_surveys":{"dataSource":"iechoDS","public":true},"files":{"dataSource":"iechoDS","public":true},"healthcenters":{"dataSource":"iechoDS","public":true},"hrp_wicdata":{"dataSource":"iechoDS","public":true},"hrp_wicdata_bk1":{"dataSource":"iechoDS","public":true},"hrp_wicdata_raw":{"dataSource":"iechoDS","public":true},"hrp_wicdata_regions":{"dataSource":"iechoDS","public":true},"hrp_wicdata_ss":{"dataSource":"iechoDS","public":true},"ideavotes":{"dataSource":"iechoDS","public":true},"ideavotes_fullname":{"dataSource":"iechoDS","public":true},"ldap_entries":{"dataSource":"iechoDS","public":true},"ldap_users_mapping":{"dataSource":"iechoDS","public":true},"loopup_clinic_mapping":{"dataSource":"iechoDS","public":true},"loopup_log":{"dataSource":"iechoDS","public":true},"loopup_noti":{"dataSource":"iechoDS","public":true},"newuser_registration":{"dataSource":"iechoDS","public":true},"passwords":{"dataSource":"iechoDS","public":true},"pickvalues_approval_status":{"dataSource":"iechoDS","public":true},"pickvalues_attendeetype":{"dataSource":"iechoDS","public":true},"pickvalues_clinic2status":{"dataSource":"iechoDS","public":true},"pickvalues_clinicstatus":{"dataSource":"iechoDS","public":true},"pickvalues_clinictype":{"dataSource":"iechoDS","public":true},"pickvalues_cmnt_status":{"dataSource":"iechoDS","public":true},"pickvalues_cmnt_type":{"dataSource":"iechoDS","public":true},"pickvalues_conntype":{"dataSource":"iechoDS","public":true},"pickvalues_contacttype":{"dataSource":"iechoDS","public":true},"pickvalues_credittype":{"dataSource":"iechoDS","public":true},"pickvalues_dus_maincat":{"dataSource":"iechoDS","public":true},"pickvalues_dus_status":{"dataSource":"iechoDS","public":true},"pickvalues_edit_status":{"dataSource":"iechoDS","public":true},"pickvalues_emailstatus":{"dataSource":"iechoDS","public":true},"pickvalues_eventattendeestatus":{"dataSource":"iechoDS","public":true},"pickvalues_eventstatus":{"dataSource":"iechoDS","public":true},"pickvalues_eventtype":{"dataSource":"iechoDS","public":true},"pickvalues_loopup_log_status":{"dataSource":"iechoDS","public":true},"pickvalues_oneliner_submit_status":{"dataSource":"iechoDS","public":true},"pickvalues_patienttype":{"dataSource":"iechoDS","public":true},"pickvalues_proftraining":{"dataSource":"iechoDS","public":true},"pickvalues_proof_status":{"dataSource":"iechoDS","public":true},"pickvalues_ractivitytype":{"dataSource":"iechoDS","public":true},"pickvalues_submit_status":{"dataSource":"iechoDS","public":true},"pickvalues_ticketorigmethod":{"dataSource":"iechoDS","public":true},"pickvalues_ticketpriority":{"dataSource":"iechoDS","public":true},"pickvalues_ticketstatus":{"dataSource":"iechoDS","public":true},"reg_telepain1":{"dataSource":"iechoDS","public":true},"repactivities":{"dataSource":"iechoDS","public":true},"resources":{"dataSource":"iechoDS","public":true},"roles":{"dataSource":"iechoDS","public":true},"rolesecurity":{"dataSource":"iechoDS","public":true},"survey_chronicpain1_post_answers":{"dataSource":"iechoDS","public":true},"survey_chronicpain1_pre_answers":{"dataSource":"iechoDS","public":true},"survey_didactics1":{"dataSource":"iechoDS","public":true},"survey_didactics1_responses":{"dataSource":"iechoDS","public":true},"survey_palliativecare1_pre_answers":{"dataSource":"iechoDS","public":true},"surveys":{"dataSource":"iechoDS","public":true},"unm_cme_alpha":{"dataSource":"iechoDS","public":true},"unm_cme_alpha_clinics":{"dataSource":"iechoDS","public":true},"usecurity":{"dataSource":"iechoDS","public":true},"usergroups":{"dataSource":"iechoDS","public":true},"video_subscriptions":{"dataSource":"iechoDS","public":true},"votingrecords":{"dataSource":"iechoDS","public":true},"whelpareas":{"dataSource":"iechoDS","public":true},"whelpcat_in_whelpareas":{"dataSource":"iechoDS","public":true},"whelpcats":{"dataSource":"iechoDS","public":true},"whelps":{"dataSource":"iechoDS","public":true},"whelps_search":{"dataSource":"iechoDS","public":true},"iechomain_users":{"dataSource":"iechomainDS","public":true}}
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+  "User": {
+    "dataSource": "db",
+    "public": false
+  },
+  "AccessToken": {
+    "dataSource": "db",
+    "public": false
+  },
+  "ACL": {
+    "dataSource": "db",
+    "public": false
+  },
+  "RoleMapping": {
+    "dataSource": "db",
+    "public": false
+  },
+  "Role": {
+    "dataSource": "db",
+    "public": true
+  },
+  "geoEntity": {
+    "dataSource": "dwDS",
+    "public": true
+  }
+  
+}
