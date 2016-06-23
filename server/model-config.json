@@ -33,9 +33,13 @@
     "dataSource": "db",
     "public": true
   },
-  "geoEntity": {
+  "GeoEntity": {
     "dataSource": "dwDS",
     "public": true
+  },
+  "iecho_unm_healthcenters": {
+    "dataSource": "iechoDS",
+    "public" :true
   }
   
 }
